@@ -1,4 +1,4 @@
-FROM  centos:latest
+FROM  alpine:3.15
 MAINTAINER vireshsolanki1027.com
 RUN yum install -y httpd \
  zip\
