@@ -1,5 +1,6 @@
 FROM  alpine:3.15
 MAINTAINER vireshsolanki1027.com
+USER root
 RUN yum install -y httpd \
  zip\
  unzip
