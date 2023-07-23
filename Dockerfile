@@ -1,7 +1,5 @@
 FROM  alpine:3.15
-MAINTAINER vireshsolanki1027.com
-USER root
-RUN dnf install yum
+RUN yum update -y
 RUN yum install -y httpd \
  zip\
  unzip
